@@ -10,7 +10,7 @@
     A decorative banner featuring a large background image stretched across the full screen with the title + tagline overlaid on top. This feature can be used on any page by adding "banner-featured-image" to the page front matter. 
     By default, this feature is added to the "home-infographic" layout automatically, with the default options configured in "theme.yml" Home Page section. It can be turned off on "home-infographic" by adding "banner-featured-image: false" to the page stub front matter.
     Adding "banner-featured-image: true" to any page front matter will add the same default feature as configured in "theme.yml". 
-    However, the feature can be fully customized on any page by using the front matter options: 
+    However, the feature can be fully customized on any page kmby using the front matter options: 
         - banner-featured-image: an objectid, relative path to image in this project, or full url to any image.
         - banner-image-position: set background-position for featured image, "center", "top", "bottom"
         - banner-padding: additional padding added to the feature to increase size. Give value in em or px, e.g. "5em"
@@ -33,8 +33,8 @@
 
 <style>
 #home-banner {
-    padding: 4rem 0;
-    background-image: url({{ jumboSrc }});
+    padding: 2rem 0;
+    /* background-image: url({{ jumboSrc }}); */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: {{ page.banner-image-position | default: site.data.theme.home-banner-image-position | default: 'center' }};

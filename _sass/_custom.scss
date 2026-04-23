@@ -2,3 +2,28 @@
     Put your custom SCSS here! 
     This allows you to override any CollectionBuilder or Bootstrap CSS without modifying the base theme files directly.
 */
+
+
+#home-banner {
+    padding: 4rem 0;
+    background-image: None;
+    background-color: #9B669C;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.text-center {
+    text-align: left !important;
+}
+
+.bg-dark {
+    background-color: #33333300 !important;
+}
+
+.p-2 {
+    padding-top: 0.5rem !important;
+    padding-right: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+    padding-left: 5rem !important;
+}

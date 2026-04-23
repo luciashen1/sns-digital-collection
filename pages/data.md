@@ -2,6 +2,7 @@
 title: Data
 layout: data
 permalink: /data.html
+banner-featured-image: true
 ---
 
 ## Collection Metadata
